@@ -1,4 +1,10 @@
-# ardrone-webflight
+* nano /plugins/video-stream/public/js/index.js
+* change line 13 port to a port in 1500-1540 range
+* nano /plugins/video-stream/index.js
+* change line 13 to the same port used earlier
+* to launch type PORT='xxxx' DEFAULT_DRONE_IP='192.168.0.x' node app.js
+
+# ardrone-webflight 
 
 Pilot the AR.Drone 2.0 directly from your browser. Extend the application with plugins
 to add features such as video recording, autonomous flight, face recognition, and more.
